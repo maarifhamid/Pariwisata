@@ -1,0 +1,288 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+
+hr {
+    height: 0;
+         box-sizing: content-box;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.nav {
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 18px;
+}
+
+.nav ul{
+    background:#3b5998 ;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 1px;
+    margin-right: auto;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li:hover{
+    background: black;
+}
+
+.nav ul li:hover a{
+    color: snow;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+}
+
+
+.box {
+    z-index: 999;
+    width: 100%;
+    display: table;
+    max-height: 450px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    background-color: #ffffff;
+}
+
+.centered {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headerwrap {
+	background: url(../img/potohd/jambi.jpg) no-repeat center top;
+    margin-top: -50px;
+    margin-right: auto;
+	padding-top:120px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+    background-size: 100%;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#ffffff;
+	margin-top: 90px;
+	padding-bottom: 30px;
+	letter-spacing: 8px;
+	font-size: 100px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#headerwrap p {
+	color:#ffffff;
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 3px;
+	margin-left: 15px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#greywrap {
+    display:grid;
+    grid-auto-columns: 50px;
+    grid-template-columns: 66% auto;  
+    padding: 4em 1em;
+}
+
+#footerwrap {
+	background: #2b2b2b;
+	margin-top: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+#footerwrap h4 {
+	color: white;
+}
+
+
+.bagian-gambar {
+    z-index: 999;
+    width: 100%;
+    display: table;
+    max-height: 450px;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-top: -20px;
+    background-position: center center;
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: relative;
+    text-align: center;
+}
+
+
+.textgambar h1 {
+	padding-top: 70px;
+	color: white;
+	font-size: 40px;
+}
+
+.textgambar2 p {
+	color: white;
+	font-size: 25px;
+}
+
+
+.gambar1 {
+	background-image: url('../img/potohd/danaukaco.jpg')
+}
+
+.gambar2 {
+	background-image: url('../img/potohd/gentala.JPG')
+}
+
+.gambar3 {
+	background-image: url('../img/potohd/mountkrinci.jpg');
+}
+
+.gambar4 {
+	background-image: url('../img/potohd/wisata.jpg')
+}
+
+.gambar5 {
+	background-image: url('../img/potohd/kerinci.jpg')
+}
+
+.gambar6 {
+	background-image: url('../img/potohd/danau.jpg')
+}
+
+.gambar7 {
+	background-image: url('../img/potohd/jambi.jpg')
+}
+
+.gambar8 {
+	background-image: url('../img/potohd/gedung.jpg')
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 25px;
+    padding-left: 150px;
+    margin-bottom: 30px;
+}
+ 
+@media (min-width: 768px) {
+    .grid1{
+      display: 80px 120px / auto auto auto;
+      float: left;
+      display: grid;
+    }
+    .grid1 {
+      width: 33.33333333333333%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid3,  .grid4 {
+      float: left;
+    }
+    .grid4 {
+      width: 70.66666666666666%;
+    }
+    .grid3 {
+      width: 38.55555555555555%;
+    }
+}
+  
+@media (min-width: 992px) {
+    .grid2, .grid5{
+      float: left;
+    }
+
+    .grid2{
+        width: 25%;
+    }
+
+    .grid5 {
+        width: 50%;
+      }
+}
+
+.col-lg-4 {
+position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.col-md-3{
+ position: relative;
+  min-height: 1px;
+  padding-right: 25px;
+  padding-left: 510px;
+}
+
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}

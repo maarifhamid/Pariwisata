@@ -1,0 +1,1 @@
+<td width="753" height="250" align="center" bgcolor="#FFFFFF">SELAMAT DATANG DI HALAMAN ADMINISTRATOR</td>
